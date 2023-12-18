@@ -51,10 +51,7 @@ print("Test",end = "");print(X_test.shape,y_test.shape)
 
 data=pd.read_csv(labelFile)
 print("data shape ",data.shape,type(data))
- 
-num_of_samples = []
-cols = 5
-num_classes = noOfClasses
+
 
 def grayscale(img):
     img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)

@@ -1,13 +1,15 @@
 {% extends "base.html" %} {% block content %}
 
-<h2>Traffic Sign Recognition Using Deep Learning</h2>
-<img src="https://i.postimg.cc/rFYVTRnN/yellow-traffic-sign-set-isolated-white-background-97458-258.jpg" 
-alt="" style="width: 30%; height:30%">
+<!-- <h2>Traffic Sign Recognition Using Deep Learning</h2> -->
+<!-- <img src="https://i.postimg.cc/rFYVTRnN/yellow-traffic-sign-set-isolated-white-background-97458-258.jpg" 
+alt="" style="width: 30%; height:30%"> -->
 
+<img src="https://mministry.org/wp-content/uploads/2019/02/traffic.jpg" 
+alt="img-sign" style="width: 30%; height:30%">
 <div>
     <form id="upload-file" method="post" enctype="multipart/form-data">
         <label for="imageUpload" class="upload-label">
-            Choose...
+            Chọn ảnh
         </label>
         <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
     </form>
@@ -18,7 +20,7 @@ alt="" style="width: 30%; height:30%">
             </div>
         </div>
         <div>
-            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
+            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Kiểm tra!</button>
         </div>
     </div>
 

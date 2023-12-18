@@ -70,7 +70,7 @@ def getCalssName(classNo):
     elif classNo == 14:
         return 'Dung lai'
     elif classNo == 15:
-        return 'Cam xe'
+        return 'Cam xe co gioi'
     elif classNo == 16:
         return 'Cam xe co trong luong tren 3.5 tan'
     elif classNo == 17:
@@ -78,11 +78,11 @@ def getCalssName(classNo):
     elif classNo == 18:
         return 'Canh bao nguy hiem'
     elif classNo == 19:
-        return 'Curve nguy hiem ben trai'
+        return 'Duong cong nguy hiem ben trai'
     elif classNo == 20:
-        return 'Curve nguy hiem ben phai'
+        return 'Duong cong nguy hiem ben phai'
     elif classNo == 21:
-        return 'Curve kep'
+        return 'Duong cong kep'
     elif classNo == 22:
         return 'Duong gap ghenh'
     elif classNo == 23:
@@ -90,7 +90,7 @@ def getCalssName(classNo):
     elif classNo == 24:
         return 'Duong hep ben phai'
     elif classNo == 25:
-        return 'Cong truong dang lam viec'
+        return 'Cong truong dang thi cong'
     elif classNo == 26:
         return 'Den tin hieu giao thong'
     elif classNo == 27:
@@ -98,11 +98,11 @@ def getCalssName(classNo):
     elif classNo == 28:
         return 'Tre em qua duong'
     elif classNo == 29:
-        return 'Qua duong xe dap'
+        return 'Giao nhau voi xe dap'
     elif classNo == 30:
         return 'Canh bao bang tuyet/da'
     elif classNo == 31:
-        return 'Qua duong dong vat hoang da'
+        return 'Gap dong vat hoang da bang qua'
     elif classNo == 32:
         return 'Het moi gioi han toc do va cam vuot'
     elif classNo == 33:
