@@ -15,8 +15,13 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 # # SETUP CAMERA
 # cap = cv2.VideoCapture(0)
 
+<<<<<<< HEAD
 url = 'http://192.168.1.87/cam.jpg'
 # cv2.namedWindow("live Cam Testing", cv2.WINDOW_AUTOSIZE)
+=======
+url = 'http://192.168.1.87/capture.jpg'
+cv2.namedWindow("live Cam Testing", cv2.WINDOW_AUTOSIZE)
+>>>>>>> 29fe4fa55c3de3392d249893079e3237108fc91b
 # Create a VideoCapture object
 # cap = cv2.VideoCapture(url)
 
