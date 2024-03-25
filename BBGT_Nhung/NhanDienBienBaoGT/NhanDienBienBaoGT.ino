@@ -10,7 +10,7 @@ WebServer server(80);
 
 static auto loRes = esp32cam::Resolution::find(320, 320);
 static auto midRes = esp32cam::Resolution::find(320, 320);
-static auto hiRes = esp32cam::Resolution::find(320, 320);
+static auto hiRes = esp32cam::Resolution::find(480, 320);
 void serveJpg() {
   auto frame = esp32cam::capture();
   if (frame == nullptr) {
